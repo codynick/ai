@@ -1,0 +1,3 @@
+import capture
+
+capture.capture()
