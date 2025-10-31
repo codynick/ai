@@ -1,2 +1,6 @@
 # Install these dependencies using pip
+python3 -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
 pip install opencv-python
+pip install pytesseract

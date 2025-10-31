@@ -1,3 +1,5 @@
-import capture
+import capture, opencv_ocr
 
-capture.capture()
+# capture.capture()
+print(opencv_ocr.opencv_ocr())
+
