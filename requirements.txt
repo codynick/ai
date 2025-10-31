@@ -1,1 +1,2 @@
+# Install these dependencies using pip
 pip install opencv-python

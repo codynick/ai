@@ -3,6 +3,7 @@ import time
 import os
 import platform
 
+
 # Create output folder
 os.makedirs("captures", exist_ok=True)
 
