@@ -8,6 +8,6 @@ import opencv_ocr
 if len(sys.argv) > 1:
     filename = sys.argv[1]
 else:
-    filename = "captures/hello.png"
+    filename = "samples/hello.png"
 
 print(opencv_ocr.opencv_ocr(filename))

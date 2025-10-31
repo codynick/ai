@@ -10,9 +10,12 @@ sudo apt install tesseract-ocr -y
 sudo apt install libtesseract-dev -y
 sudo apt install imagemagick -y
 
+pip install fer
+
 sudo apt install -y libgl1
 
 chmod +x text2jpg.sh
 ./text2jpg.sh "Hello from CodyNick!"
 
-python3 top.py captures/hello.png
+python3 top.py "samples/hello.png"
+python3 emotion.py "samples/Happy.jpg"
