@@ -16,7 +16,7 @@ print(f"{RED}Import time: {round((time.time() - start) * 10) / 10} seconds{RESET
 start = time.time()
 
 # Get filename from command-line argument or use default
-filename = sys.argv[1] if len(sys.argv) > 1 else "samples/happy.jpg"
+filename = sys.argv[1] if len(sys.argv) > 1 else "samples/Happy.jpg"
 
 # Load image
 image = cv2.imread(filename)
