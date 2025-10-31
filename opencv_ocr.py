@@ -5,7 +5,7 @@ import platform
 import pytesseract
 import numpy as np
 
-def opencv_ocr():
+def opencv_ocr(filename):
     # --- Detect OS and set Tesseract path ---
     if platform.system() == "Windows":
         pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
@@ -15,7 +15,8 @@ def opencv_ocr():
         raise RuntimeError("Unsupported OS for Tesseract OCR")
 
     # --- Image file path ---
-    filename = os.path.join("captures", "hello.png")
+    # filename = os.path.join("captures", "hello.png")
+    # filename = "captures/hello.png"  # Example filename; replace with actual captured file
 
     # --- Read image ---
     time1 = time.time()
