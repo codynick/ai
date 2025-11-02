@@ -1,0 +1,15 @@
+{
+  "image": ".\\samples\\Happy.jpg",
+  "detections": [
+    {
+      "bbox_xyxy": [
+        756,
+        169,
+        1215,
+        837
+      ],
+      "age_estimate": 34.0,
+      "age_bucket": "(38-43)"
+    }
+  ]
+}

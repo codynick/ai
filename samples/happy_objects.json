@@ -1,0 +1,16 @@
+{
+  "image": ".\\samples\\happy.jpg",
+  "num_detections": 1,
+  "detections": [
+    {
+      "class_name": "person",
+      "confidence": 0.9171940088272095,
+      "bbox_xyxy": [
+        315.1582336425781,
+        132.2863311767578,
+        1638.5804443359375,
+        1070.75390625
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "image": ".\\samples\\happy.jpg",
+  "num_faces": 1,
+  "detections": [
+    {
+      "bbox_xywh": [
+        739,
+        170,
+        475,
+        614
+      ],
+      "dominant_emotion": "happy",
+      "confidence": 0.98,
+      "all_emotions": {
+        "angry": 0.0,
+        "disgust": 0.0,
+        "fear": 0.0,
+        "happy": 0.98,
+        "sad": 0.0,
+        "surprise": 0.0,
+        "neutral": 0.02
+      }
+    }
+  ]
+}
