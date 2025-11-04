@@ -40,3 +40,11 @@ pip install onnxruntime pillow pytesseract fer mtcnn matplotlib requests
 --------------------------------
 
 pip install onnx
+
+
+-------------- Rpi Zero 2 W -----------
+sudo apt install -y tesseract-ocr
+
+pip install numpy==1.26.4 opencv-python==4.9.0.80
+pip install onnxruntime pillow pytesseract fer mtcnn matplotlib requests
+sudo apt install -y libgl1
